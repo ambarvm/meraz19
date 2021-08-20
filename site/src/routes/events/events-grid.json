@@ -1,0 +1,207 @@
+[
+	{
+		"name": "cultural",
+		"events": [
+			{
+				"name": "Viva La Vida",
+				"imageSize": "big"
+			},
+			{
+				"name": "SurReal",
+				"imageSize": "vertical"
+			},
+			{
+				"name": "Euphony",
+				"imageSize": ""
+			},
+			{
+				"name": "Foto Hue",
+				"imageSize": "vertical"
+			},
+			{
+				"name": "In10sity",
+				"imageSize": "big"
+			},
+			{
+				"name": "Mono Logue",
+				"imageSize": ""
+			},
+			{
+				"name": "Final Masquerade",
+				"imageSize": ""
+			},
+			{
+				"name": "Murder Mystery",
+				"imageSize": ""
+			},
+			{
+				"name": "Nukkad Natak",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "Photo Of the Fest",
+				"imageSize": ""
+			},
+			{
+				"name": "PhotoWalk",
+				"imageSize": ""
+			},
+			{
+				"name": "Glass Painting",
+				"imageSize": ""
+			},
+			{
+				"name": "Picturesque Gallery",
+				"imageSize": ""
+			},
+			{
+				"name": "Hue Tube",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "Shredded",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "Handi-Crafts",
+				"imageSize": ""
+			},
+			{
+				"name": "Depth of Dance",
+				"imageSize": ""
+			},
+			{
+				"name": "Motification",
+				"imageSize": ""
+			},
+			{
+				"name": "Short Movie",
+				"imageSize": ""
+			},
+			{
+				"name": "All Rounders Quiz",
+				"imageSize": ""
+			},
+			{
+				"name": "Pop Culture Quiz",
+				"imageSize": ""
+			}
+		]
+	},
+	{
+		"name": "gaming",
+		"events": [
+			{
+				"name": "CS GO",
+				"imageSize": "big"
+			},
+			{
+				"name": "FIFA 19",
+				"imageSize": "big"
+			},
+			{
+				"name": "NFS",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "PUBG Mobile",
+				"imageSize": "horizontal"
+			}
+		]
+	},
+	{
+		"name": "Technical",
+		"events": [
+			{
+				"name": "Code Crusade",
+				"imageSize": "big"
+			},
+			{
+				"name": "App-etite",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "F1 Boost",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "Tech Riddles",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "Drone Game",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "Areana Haste",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "Robo Kabaddi",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "Robo Soccer",
+				"imageSize": "horizontal"
+			}
+		]
+	},
+	{
+		"name": "informals",
+		"events": [
+			{
+				"name": "Casino",
+				"imageSize": "big"
+			},
+
+			{
+				"name": "Pandoras Box",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "Speed Dating",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "Intrepide",
+				"imageSize": ""
+			},
+			{
+				"name": "Beg Borrow steal",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "Housie",
+				"imageSize": ""
+			},
+			{
+				"name": "Box Cricket",
+				"imageSize": ""
+			},
+			{
+				"name": "Love Letter Writing",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "Central Radio",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "Dare to Dare",
+				"imageSize": "horizontal"
+			},
+			{
+				"name": "Balloon Butt Pop",
+				"imageSize": ""
+			},
+			{
+				"name": "Stand Up Comedy",
+				"imageSize": ""
+			},
+			{
+				"name": "Dungeons and Dragons",
+				"imageSize": "horizontal"
+			}
+		]
+	}
+]

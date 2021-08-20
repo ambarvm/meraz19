@@ -2,35 +2,37 @@ name: deploy
 
 on:
   push:
-    branches: 
-        - master
+    branches:
+      - master
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
       matrix:
-        node-version: [10.x]
+        node-version: [14.x]
 
     steps:
-    - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v1
-      with:
-        node-version: ${{ matrix.node-version }}
-    - name: npm install and build
-      run: |
-        npm i
-        npm run build:prod
-        cp ./dist/meraz19/index.html ./dist/meraz19/404.html
-        echo meraz.in > ./dist/meraz19/CNAME
-    - name: Deploy
-      if: success()
-      uses: crazy-max/ghaction-github-pages@v1
-      with:
+      - uses: actions/checkout@v1
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: npm install and build
+        run: |
+          npm i -g pnpm
+          cd site
+          pnpm install
+          pnpm build
+          cp ./build/index.html ./build/404.html
+          echo meraz.in > ./build/CNAME
+          echo > .nojekyll
+      - name: Deploy
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v1
+        with:
           target_branch: gh-pages
-          build_dir: dist/meraz19
-      env:
+          build_dir: site/build
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
