@@ -27,7 +27,7 @@ jobs:
           pnpm build
           cp ./build/index.html ./build/404.html
           echo meraz.in > ./build/CNAME
-          echo > .nojekyll
+          echo > ./build/.nojekyll
       - name: Deploy
         if: success()
         uses: crazy-max/ghaction-github-pages@v1
