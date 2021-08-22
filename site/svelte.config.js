@@ -11,7 +11,11 @@ const config = {
 		target: '#svelte',
 	},
 	preprocess: [
-		preprocess(),
+		preprocess({
+			scss: {
+				includePaths: ['src/styles/'],
+			},
+		}),
 		mdsvex({
 			extensions: ['.svelte', '.md'],
 			layout: {

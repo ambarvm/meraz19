@@ -1,6 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
+  '@fontsource/metal-mania': ^4.5.0
   '@fortawesome/free-brands-svg-icons': ^5.15.4
   '@fortawesome/free-solid-svg-icons': ^5.15.4
   '@sveltejs/adapter-static': ^1.0.0-next.16
@@ -8,6 +9,7 @@ specifiers:
   eslint: ^7.22.0
   eslint-config-prettier: ^8.1.0
   eslint-plugin-svelte3: ^3.2.0
+  lite-youtube-embed: ^0.2.0
   mdsvex: ^0.9.8
   prettier: ~2.2.1
   prettier-plugin-svelte: ^2.2.0
@@ -17,13 +19,15 @@ specifiers:
   svelte-preprocess: ^4.7.4
 
 devDependencies:
+  '@fontsource/metal-mania': 4.5.0
   '@fortawesome/free-brands-svg-icons': 5.15.4
   '@fortawesome/free-solid-svg-icons': 5.15.4
   '@sveltejs/adapter-static': 1.0.0-next.16
-  '@sveltejs/kit': 1.0.0-next.154_svelte@3.42.1
+  '@sveltejs/kit': 1.0.0-next.155_svelte@3.42.1
   eslint: 7.32.0
   eslint-config-prettier: 8.3.0_eslint@7.32.0
   eslint-plugin-svelte3: 3.2.0_eslint@7.32.0+svelte@3.42.1
+  lite-youtube-embed: 0.2.0
   mdsvex: 0.9.8_svelte@3.42.1
   prettier: 2.2.1
   prettier-plugin-svelte: 2.3.1_prettier@2.2.1+svelte@3.42.1
@@ -69,6 +73,10 @@ packages:
       strip-json-comments: 3.1.1
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /@fontsource/metal-mania/4.5.0:
+    resolution: {integrity: sha512-YSwDRhLmDLhyugBm+HWCAae3WMCdPOHrR0B0o/dLxGldHYWk93olIyioR70PVs7k1j8BJvRbhLNSofh6hqtDmg==}
     dev: true
 
   /@fortawesome/fontawesome-common-types/0.2.36:
@@ -120,8 +128,8 @@ packages:
     resolution: {integrity: sha512-xGFcg+GHF0BL1fyWx2vCzlYj4S4R+Od9cF00soo1TVp/scGOi1G9grSYYW4x5H+iDn1sscoJ65OGBGWIcOgrXg==}
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.154_svelte@3.42.1:
-    resolution: {integrity: sha512-3WqdmZyTwrAnPtFI5cNLXswGiCx934tfWckS6MLbOTlN6zGtex2H9A2WZKlXRhpxtIM8XqrYlGKr1qNDBmATWQ==}
+  /@sveltejs/kit/1.0.0-next.155_svelte@3.42.1:
+    resolution: {integrity: sha512-cAQxR0HS+ywEGPL8LvUdoWCsISYtdJ6d3fCNFhJxvDDMDUCnGxmueHNA0+jIkLaaLY6TCb0oJ54rRdqfn5gGEA==}
     engines: {node: ^12.20 || >=14.13}
     hasBin: true
     peerDependencies:
@@ -755,6 +763,10 @@ packages:
     dependencies:
       prelude-ls: 1.2.1
       type-check: 0.4.0
+    dev: true
+
+  /lite-youtube-embed/0.2.0:
+    resolution: {integrity: sha512-XXXAk5sbvtjjwbie3XG+6HppgTm1HTGL/Uk9z9NkJH53o7puZLur434heHzAjkS60hZB3vT4ls25zl5rMiX4EA==}
     dev: true
 
   /lodash.clonedeep/4.5.0:

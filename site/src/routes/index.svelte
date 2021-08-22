@@ -1,5 +1,9 @@
 <script>
 	import Hero from './_Hero.svelte';
+	import 'lite-youtube-embed/src/lite-yt-embed.css';
+	import { onMount } from 'svelte';
+
+	onMount(() => import('lite-youtube-embed/src/lite-yt-embed'));
 </script>
 
 <svelte:head>
@@ -33,26 +37,42 @@
 	<div class="title">
 		<h1 style="font-weight: normal">Meraz'19 Trailer</h1>
 	</div>
-	<iframe
+	<!-- <iframe
 		src="https://www.youtube.com/embed/vrHzl-E-Pvs"
 		title="Meraz'19 Trailer"
 		frameborder="0"
 		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 		allowfullscreen
-	/>
+	/> -->
+	<lite-youtube
+		videoid="vrHzl-E-Pvs"
+		style="background-image: url('https://i.ytimg.com/vi/vrHzl-E-Pvs/hqdefault.jpg');"
+	>
+		<button type="button" class="lty-playbtn">
+			<span class="lyt-visually-hidden">Play: Meraz'19 Trailer</span>
+		</button>
+	</lite-youtube>
 </section>
 
 <section class="glimpses">
 	<div class="title">
 		<h1 style="font-weight: normal">Meraz'18 Glimpses</h1>
 	</div>
-	<iframe
+	<!-- <iframe
 		src="https://www.youtube.com/embed/uOQbTb4-ejs"
 		title="Meraz'18 Glimpses"
 		frameborder="0"
 		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 		allowfullscreen
-	/>
+	/> -->
+	<lite-youtube
+		videoid="uOQbTb4-ejs"
+		style="background-image: url('https://i.ytimg.com/vi/uOQbTb4-ejs/hqdefault.jpg');"
+	>
+		<button type="button" class="lty-playbtn">
+			<span class="lyt-visually-hidden">Play: Meraz'18 Glimpses</span>
+		</button>
+	</lite-youtube>
 </section>
 
 <style lang="scss">
@@ -154,7 +174,7 @@
 			url('../../../assets/event-images/alchemy.jpg');
 	}
 
-	iframe {
+	lite-youtube {
 		margin: 1% auto;
 		width: 75vw;
 		height: 80vh;
@@ -169,7 +189,7 @@
 				margin-bottom: 10px;
 			}
 		}
-		iframe {
+		lite-youtube {
 			height: 30vh;
 			width: 90vw;
 			margin-top: 5vh;

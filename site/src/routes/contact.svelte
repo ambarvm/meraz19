@@ -1,3 +1,8 @@
+<script>
+	import Fa from 'svelte-fa/src/fa.svelte';
+	import { faPhoneAlt, faEnvelope, faMapMarkedAlt } from '@fortawesome/free-solid-svg-icons';
+</script>
+
 <svelte:head>
 	<title>Contact | Meraz '19</title>
 </svelte:head>
@@ -15,7 +20,7 @@
 	<br />
 	<div class="contact-info">
 		<h2>
-			<span class="material-icons">phone</span>
+			<Fa icon={faPhoneAlt} />
 			<span>Phone</span>
 		</h2>
 		<ul>
@@ -28,7 +33,7 @@
 		<br />
 
 		<h2>
-			<span class="material-icons">mail</span>
+			<Fa icon={faEnvelope} />
 			<span>E-mail</span>
 		</h2>
 		<ul>
@@ -45,7 +50,7 @@
 		<br />
 
 		<h2>
-			<span class="material-icons">map</span>
+			<Fa icon={faMapMarkedAlt} />
 			<span>Address</span>
 		</h2>
 		<span class="campusAddress">
@@ -113,11 +118,5 @@
 	ul {
 		list-style: none;
 		padding: 0;
-	}
-
-	.material-icons {
-		position: relative;
-		top: 4px;
-		margin-right: 10px;
 	}
 </style>
