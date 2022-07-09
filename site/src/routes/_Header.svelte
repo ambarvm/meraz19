@@ -8,7 +8,7 @@
 	import links from '$lib/links.json';
 
 	let scrollY;
-	$: transparent = browser && scrollY <= 56 && $page.path === '/';
+	$: transparent = browser && scrollY <= 56 && $page.url.pathname === '/';
 	$: bgColor = transparent ? 'rgba(0,0,0,0)' : 'black';
 	$: shadow = transparent ? 'none' : 'var(--shadow)';
 
@@ -29,7 +29,7 @@
 	<ul class="links">
 		{#each links as { href, text }}
 			<li>
-				<a {href} class:active={href === '/' ? $page.path === href : $page.path.includes(href)}
+				<a {href} class:active={href === '/' ? $page.url.pathname === href : $page.url.pathname.includes(href)}
 					>{text}</a
 				>
 			</li>

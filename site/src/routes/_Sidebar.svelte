@@ -14,7 +14,7 @@
 		<ul class="links">
 			{#each links as { href, text }}
 				<li>
-					<a {href} class:active={href === '/' ? $page.path === href : $page.path.includes(href)}
+					<a {href} class:active={href === '/' ? $page.url.pathname === href : $page.url.pathname.includes(href)}
 						>{text}</a
 					>
 				</li>
