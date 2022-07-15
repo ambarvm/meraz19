@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Contact | Meraz '19</title>
+	<title>Contact | Meraz '22</title>
 </svelte:head>
 
 <div class="parent" style="background:rgb(66, 66, 66,40%);	border-radius: 12px;">
