@@ -3,7 +3,7 @@ import categories from './events-grid.json';
 /**
  * @type {import('@sveltejs/kit').RequestHandler}
  */
-export async function get() {
+export async function GET() {
 	const events = await Promise.all(
 		Object.entries(import.meta.glob('./*.md')).map(async ([path, page]) => {
 			const { metadata } = await page();
