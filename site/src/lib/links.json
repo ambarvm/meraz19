@@ -1,13 +1,5 @@
 [
 	{ "text": "Home", "href": "/" },
 	{ "text": "Events", "href": "/events" },
-	{ "text": "Contact", "href": "/contact" },
-	{
-		"text": "Accommodation",
-		"href": "https://docs.google.com/forms/d/e/1FAIpQLSdg9xGIixPQPlzdodIx6V5GDZwl8V2GVE6ADO4uzm83iK3KJg/viewform?usp=sf_link"
-	},
-	{
-		"text": "Schedule",
-		"href": "https://docs.google.com/spreadsheets/d/16-b__c8o-1XvDP3F7ItEd5myHqzhN8rseNp1oi3UsT8/edit?usp=sharing"
-	}
+	{ "text": "Contact", "href": "/contact" }
 ]

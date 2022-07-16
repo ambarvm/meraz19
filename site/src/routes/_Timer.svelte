@@ -26,7 +26,8 @@
 </script>
 
 {#if complete}
-	<div class="complete-message">Nov 8-10, 2019</div>
+	<!-- <div class="complete-message">Nov 8-10, 2019</div> -->
+	<div class="complete-message">Stay Tuned</div>
 {:else}
 	<div class="parent">
 		<div class="box">

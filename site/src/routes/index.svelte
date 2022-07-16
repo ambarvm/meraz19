@@ -7,12 +7,12 @@
 </script>
 
 <svelte:head>
-	<title>Meraz '19</title>
+	<title>Meraz '22</title>
 </svelte:head>
 
 <Hero />
 
-<section>
+<!-- <section>
 	<div class="title">
 		<h1>Pronites</h1>
 		<div>
@@ -31,11 +31,11 @@
 			<span>Band Performance</span>
 		</div>
 	</div>
-</section>
+</section> -->
 
 <section class="glimpses">
 	<div class="title">
-		<h1 style="font-weight: normal">Meraz'19 Trailer</h1>
+		<h1 style="font-weight: normal">Meraz'19 Glimpses</h1>
 	</div>
 	<!-- <iframe
 		src="https://www.youtube.com/embed/vrHzl-E-Pvs"
@@ -46,10 +46,10 @@
 	/> -->
 	<lite-youtube
 		videoid="vrHzl-E-Pvs"
-		style="background-image: url('https://i.ytimg.com/vi/vrHzl-E-Pvs/hqdefault.jpg');"
+		style="background-image: url('https://i.ytimg.com/vi/fjtuMhY1KK8/hqdefault.jpg');"
 	>
 		<button type="button" class="lty-playbtn">
-			<span class="lyt-visually-hidden">Play: Meraz'19 Trailer</span>
+			<span class="lyt-visually-hidden">Play: Meraz'19 Glimpses</span>
 		</button>
 	</lite-youtube>
 </section>

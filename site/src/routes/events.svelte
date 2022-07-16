@@ -14,7 +14,7 @@
 </script>
 
 <svelte:head>
-	<title>Events | Meraz '19</title>
+	<title>Events | Meraz '22</title>
 </svelte:head>
 
 <div class="parent">

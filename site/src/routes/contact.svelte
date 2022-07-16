@@ -4,7 +4,7 @@
 </script>
 
 <svelte:head>
-	<title>Contact | Meraz '19</title>
+	<title>Contact | Meraz '22</title>
 </svelte:head>
 
 <div class="parent" style="background:rgb(66, 66, 66,40%);	border-radius: 12px;">
@@ -24,11 +24,11 @@
 			<span>Phone</span>
 		</h2>
 		<ul>
-			<li>Gourav Borkar (Sponsorship Head) ‐ <a href="tel:+918999739404">8999739404</a></li>
-			<li>Kumar Shivam (CoSA Events Head)‐ <a href="tel:+917903175276">7903175276</a></li>
-			<li>Shreyam Chandra (CoSA President) ‐ <a href="tel:+91747044887">747044887</a></li>
-			<li>Preetam Kumar (CoSA Treasurer) ‐ <a href="tel:+918079098860">8079098860</a></li>
-			<li>Aryavrata Singh (Informals Incharge)- <a href="tel:+919725123743">9725123743</a></li>
+			<!-- <li>Gourav Borkar (Sponsorship Head) ‐ <a href="tel:+918999739404">8999739404</a></li> -->
+			<li>Chinmay Ratnaparkhe (CoSA Events Head)‐ <a href="tel:+918290978374">8291978374</a></li>
+			<li>Yash Teckchandani (CoSA President) ‐ <a href="tel:+917049500872">7049500872</a></li>
+			<li>Rajagopalan R (CoSA Treasurer) ‐ <a href="tel:+918667083459">8667083459</a></li>
+			<!-- <li>Aryavrata Singh (Informals Incharge)- <a href="tel:+919725123743">9725123743</a></li> -->
 		</ul>
 		<br />
 
@@ -37,16 +37,21 @@
 			<span>E-mail</span>
 		</h2>
 		<ul>
-			<li>
-				<a href="mailto:meraz@iitbhilai.ac.in">meraz@iitbhilai.ac.in </a>
-			</li>
-			<li>
-				<a href="mailto:eventshead_cosa@iitbhilai.ac.in">eventshead_cosa@iitbhilai.ac.in </a>
-			</li>
-			<li>
-				<a href="mailto:management_cosa@iitbhilai.ac.in"> management_cosa@iitbhilai.ac.in </a>
-			</li>
-		</ul>
+			<!-- <li>
+					<a href="mailto:meraz@iitbhilai.ac.in">meraz@iitbhilai.ac.in </a>
+				</li> -->
+		<li>
+			<a href="mailto:eventshead_cosa@iitbhilai.ac.in">eventshead_cosa@iitbhilai.ac.in </a>
+		</li>
+		<li>
+			<a href="mailto:President_CoSA@iitbhilai.ac.in">President_CoSA@iitbhilai.ac.in </a>
+		</li>
+		<!-- <li>
+			<a href="mailto:management_cosa@iitbhilai.ac.in">
+				management_cosa@iitbhilai.ac.in
+			</a>
+		</li> -->
+	</ul>
 		<br />
 
 		<h2>
