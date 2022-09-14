@@ -34,7 +34,7 @@
 </section> -->
 <section class="glimpses">
 	<div class="title">
-		<h1 style="font-weight: normal">Meraz'22 Glimpses</h1>
+		<h1 style="font-weight: normal">Meraz'22 Teaser</h1>
 	</div>
 	<!-- <iframe
 		src="https://www.youtube.com/embed/vrHzl-E-Pvs"
@@ -64,7 +64,7 @@
 		allowfullscreen
 	/> -->
 	<lite-youtube
-		videoid="vrHzl-E-Pvs"
+		videoid="fjtuMhY1KK8"
 		style="background-image: url('https://i.ytimg.com/vi/fjtuMhY1KK8/hqdefault.jpg');"
 	>
 		<button type="button" class="lty-playbtn">
