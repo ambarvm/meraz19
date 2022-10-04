@@ -1,5 +1,5 @@
 [
 	{ "text": "Home", "href": "/" },
-	{ "text": "Events", "href": "/events" },
+	//{ "text": "Events", "href": "/events" },
 	{ "text": "Contact", "href": "/contact" }
 ]
